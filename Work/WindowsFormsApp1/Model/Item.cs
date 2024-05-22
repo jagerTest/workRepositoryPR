@@ -76,7 +76,7 @@ namespace ObjectOrientedPractics.Model
         /// <param name="cost">Цена товара. Должно быть не более 100000.</param>
         public Item(string name, string info, double cost)
         {
-            Id = IdGenerator.GetNewIdItem();
+            Id = IdGenerator.GetNewIdItemFor();
             Name = name;
             Info = info;
             Cost = cost;

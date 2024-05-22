@@ -25,7 +25,7 @@ namespace ObjectOrientedPractics.Services
         /// Создает новый Id и возвращает его для <see cref="Model.Item"/>.
         /// </summary>
         /// <returns>Id.</returns>
-        public static int GetNewIdItem()
+        public static int GetNewIdItemFor()
         {
             _idItem++;
             return _idItem;
